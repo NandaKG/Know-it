@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF177E30148D368A0075594D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF177E2F148D368A0075594D /* libsqlite3.0.dylib */; };
+		EF1F2430148DB09A0017411B /* LocationRecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F242E148DB09A0017411B /* LocationRecommendedViewController.m */; };
+		EF1F2431148DB09A0017411B /* LocationRecommendedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1F242F148DB09A0017411B /* LocationRecommendedViewController.xib */; };
+		EF1F243E148DC1520017411B /* RecommendedLOcationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F243C148DC1520017411B /* RecommendedLOcationMapViewController.m */; };
+		EF1F243F148DC1520017411B /* RecommendedLOcationMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1F243D148DC1520017411B /* RecommendedLOcationMapViewController.xib */; };
+		EF1F2441148DC2140017411B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1F2440148DC2140017411B /* MapKit.framework */; };
+		EF1F2444148DC6F60017411B /* MapViewPins.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F2443148DC6F60017411B /* MapViewPins.m */; };
+		EF311D32149A0AF200616ECE /* RecentScansDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF311D30149A0AF200616ECE /* RecentScansDetailController.m */; };
+		EF311D33149A0AF200616ECE /* RecentScansDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF311D31149A0AF200616ECE /* RecentScansDetailController.xib */; };
+		EF311D37149A1BDD00616ECE /* RecentScanMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF311D35149A1BDD00616ECE /* RecentScanMapController.m */; };
+		EF311D38149A1BDD00616ECE /* RecentScanMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF311D36149A1BDD00616ECE /* RecentScanMapController.xib */; };
+		EF4E99F9148D6458003A0DA5 /* MoreDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E99F7148D6458003A0DA5 /* MoreDetailsViewController.m */; };
+		EF4E99FA148D6458003A0DA5 /* MoreDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4E99F8148D6458003A0DA5 /* MoreDetailsViewController.xib */; };
+		EF4E9A02148D64E2003A0DA5 /* LocationImages.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9A01148D64E2003A0DA5 /* LocationImages.m */; };
+		EF4E9A05148D65A7003A0DA5 /* LocationImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9A04148D65A7003A0DA5 /* LocationImagesView.m */; };
+		EF549485148DE50D005095F6 /* RecentLocations.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EF549484148DE50D005095F6 /* RecentLocations.sqlite */; };
+		EF54949E148DF6D2005095F6 /* RecentScansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF54949C148DF6D1005095F6 /* RecentScansViewController.m */; };
+		EF54949F148DF6D2005095F6 /* RecentScansViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF54949D148DF6D2005095F6 /* RecentScansViewController.xib */; };
+		EF75B58B148CB237007BF4B7 /* LocationDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75B589148CB237007BF4B7 /* LocationDetailsController.m */; };
+		EF75B58C148CB237007BF4B7 /* LocationDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF75B58A148CB237007BF4B7 /* LocationDetailsController.xib */; };
+		EF75B590148CB3D4007BF4B7 /* EmbedReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75B58E148CB3D4007BF4B7 /* EmbedReaderViewController.m */; };
+		EF75B591148CB3D4007BF4B7 /* EmbedReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF75B58F148CB3D4007BF4B7 /* EmbedReaderViewController.xib */; };
+		EF79A35414990B010057E6E0 /* LocationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = EF79A35114990B010057E6E0 /* LocationDetails.m */; };
+		EF79A35514990B010057E6E0 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF79A35314990B010057E6E0 /* XMLParser.m */; };
+		EF90C939149A5629000D3297 /* rsz_1qr-code-reader.png in Resources */ = {isa = PBXBuildFile; fileRef = EF90C938149A5629000D3297 /* rsz_1qr-code-reader.png */; };
+		EF90C93B149A56D5000D3297 /* rsz_2qr-code-reader1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF90C93A149A56D5000D3297 /* rsz_2qr-code-reader1.png */; };
+		EF90C93F149AE401000D3297 /* URLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90C93D149AE400000D3297 /* URLListViewController.m */; };
+		EF90C940149AE401000D3297 /* URLListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF90C93E149AE400000D3297 /* URLListViewController.xib */; };
+		EFDDFAAC148CA70F009D170E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAAB148CA70F009D170E /* UIKit.framework */; };
+		EFDDFAAE148CA70F009D170E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAAD148CA70F009D170E /* Foundation.framework */; };
+		EFDDFAB0148CA70F009D170E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAAF148CA70F009D170E /* CoreGraphics.framework */; };
+		EFDDFAB6148CA70F009D170E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFAB4148CA70F009D170E /* InfoPlist.strings */; };
+		EFDDFAB8148CA70F009D170E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDDFAB7148CA70F009D170E /* main.m */; };
+		EFDDFABC148CA70F009D170E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDDFABB148CA70F009D170E /* AppDelegate.m */; };
+		EFDDFABF148CA70F009D170E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFABD148CA70F009D170E /* MainStoryboard.storyboard */; };
+		EFDDFAD5148CA73D009D170E /* KnowITMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDDFAD4148CA73D009D170E /* KnowITMainViewController.m */; };
+		EFDDFAF4148CA762009D170E /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAEE148CA762009D170E /* libzbar.a */; };
+		EFDDFAF5148CA762009D170E /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFAF0148CA762009D170E /* zbar-back.png */; };
+		EFDDFAF6148CA762009D170E /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFAF1148CA762009D170E /* zbar-help.html */; };
+		EFDDFAF7148CA762009D170E /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFAF2148CA762009D170E /* zbar-helpicons.png */; };
+		EFDDFAF8148CA762009D170E /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFAF3148CA762009D170E /* zbar-samples.png */; };
+		EFDDFAFE148CA78D009D170E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAF9148CA78D009D170E /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EFDDFAFF148CA78D009D170E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAFA148CA78D009D170E /* CoreMedia.framework */; };
+		EFDDFB00148CA78D009D170E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAFB148CA78D009D170E /* CoreVideo.framework */; };
+		EFDDFB01148CA78D009D170E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAFC148CA78D009D170E /* libiconv.dylib */; };
+		EFDDFB02148CA78D009D170E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDDFAFD148CA78D009D170E /* QuartzCore.framework */; };
+		EFDDFB05148CA7F0009D170E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDDFB04148CA7F0009D170E /* SettingsViewController.m */; };
+		EFDDFB0D148CA829009D170E /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB06148CA829009D170E /* 06-magnify.png */; };
+		EFDDFB0E148CA829009D170E /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB07148CA829009D170E /* 07-map-marker.png */; };
+		EFDDFB0F148CA829009D170E /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB08148CA829009D170E /* 33-cabinet.png */; };
+		EFDDFB10148CA829009D170E /* 71-compass.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB09148CA829009D170E /* 71-compass.png */; };
+		EFDDFB11148CA829009D170E /* 72-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB0A148CA829009D170E /* 72-pin.png */; };
+		EFDDFB12148CA829009D170E /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB0B148CA829009D170E /* 73-radar.png */; };
+		EFDDFB13148CA829009D170E /* 74-location.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB0C148CA829009D170E /* 74-location.png */; };
+		EFDDFB1E148CA906009D170E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDDFB1D148CA906009D170E /* Default@2x.png */; };
+		EFE5479C148D67A400D98391 /* LocationImagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE5479B148D67A400D98391 /* LocationImagesView.xib */; };
+		EFE547A4148D87E300D98391 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE547A2148D87E200D98391 /* VideoViewController.m */; };
+		EFE547A5148D87E300D98391 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE547A3148D87E200D98391 /* VideoViewController.xib */; };
+		EFE547A7148D8AC900D98391 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE547A6148D8AC900D98391 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF177E2F148D368A0075594D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		EF1F242D148DB09A0017411B /* LocationRecommendedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationRecommendedViewController.h; sourceTree = "<group>"; };
+		EF1F242E148DB09A0017411B /* LocationRecommendedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationRecommendedViewController.m; sourceTree = "<group>"; };
+		EF1F242F148DB09A0017411B /* LocationRecommendedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationRecommendedViewController.xib; sourceTree = "<group>"; };
+		EF1F243B148DC1520017411B /* RecommendedLOcationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedLOcationMapViewController.h; sourceTree = "<group>"; };
+		EF1F243C148DC1520017411B /* RecommendedLOcationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendedLOcationMapViewController.m; sourceTree = "<group>"; };
+		EF1F243D148DC1520017411B /* RecommendedLOcationMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendedLOcationMapViewController.xib; sourceTree = "<group>"; };
+		EF1F2440148DC2140017411B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF1F2442148DC6F60017411B /* MapViewPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewPins.h; sourceTree = "<group>"; };
+		EF1F2443148DC6F60017411B /* MapViewPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewPins.m; sourceTree = "<group>"; };
+		EF311D2F149A0AF200616ECE /* RecentScansDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentScansDetailController.h; sourceTree = "<group>"; };
+		EF311D30149A0AF200616ECE /* RecentScansDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentScansDetailController.m; sourceTree = "<group>"; };
+		EF311D31149A0AF200616ECE /* RecentScansDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentScansDetailController.xib; sourceTree = "<group>"; };
+		EF311D34149A1BDD00616ECE /* RecentScanMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentScanMapController.h; sourceTree = "<group>"; };
+		EF311D35149A1BDD00616ECE /* RecentScanMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentScanMapController.m; sourceTree = "<group>"; };
+		EF311D36149A1BDD00616ECE /* RecentScanMapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentScanMapController.xib; sourceTree = "<group>"; };
+		EF4E99F6148D6458003A0DA5 /* MoreDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDetailsViewController.h; sourceTree = "<group>"; };
+		EF4E99F7148D6458003A0DA5 /* MoreDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailsViewController.m; sourceTree = "<group>"; };
+		EF4E99F8148D6458003A0DA5 /* MoreDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreDetailsViewController.xib; sourceTree = "<group>"; };
+		EF4E9A00148D64E2003A0DA5 /* LocationImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationImages.h; sourceTree = "<group>"; };
+		EF4E9A01148D64E2003A0DA5 /* LocationImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationImages.m; sourceTree = "<group>"; };
+		EF4E9A03148D65A7003A0DA5 /* LocationImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationImagesView.h; path = ../LocationImagesView.h; sourceTree = "<group>"; };
+		EF4E9A04148D65A7003A0DA5 /* LocationImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationImagesView.m; path = ../LocationImagesView.m; sourceTree = "<group>"; };
+		EF549484148DE50D005095F6 /* RecentLocations.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RecentLocations.sqlite; sourceTree = "<group>"; };
+		EF54949B148DF6D1005095F6 /* RecentScansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentScansViewController.h; sourceTree = "<group>"; };
+		EF54949C148DF6D1005095F6 /* RecentScansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentScansViewController.m; sourceTree = "<group>"; };
+		EF54949D148DF6D2005095F6 /* RecentScansViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentScansViewController.xib; sourceTree = "<group>"; };
+		EF75B588148CB237007BF4B7 /* LocationDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailsController.h; sourceTree = "<group>"; };
+		EF75B589148CB237007BF4B7 /* LocationDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsController.m; sourceTree = "<group>"; };
+		EF75B58A148CB237007BF4B7 /* LocationDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationDetailsController.xib; sourceTree = "<group>"; };
+		EF75B58D148CB3D4007BF4B7 /* EmbedReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedReaderViewController.h; sourceTree = "<group>"; };
+		EF75B58E148CB3D4007BF4B7 /* EmbedReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedReaderViewController.m; sourceTree = "<group>"; };
+		EF75B58F148CB3D4007BF4B7 /* EmbedReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmbedReaderViewController.xib; sourceTree = "<group>"; };
+		EF79A35014990B010057E6E0 /* LocationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetails.h; sourceTree = "<group>"; };
+		EF79A35114990B010057E6E0 /* LocationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetails.m; sourceTree = "<group>"; };
+		EF79A35214990B010057E6E0 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		EF79A35314990B010057E6E0 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		EF90C938149A5629000D3297 /* rsz_1qr-code-reader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_1qr-code-reader.png"; sourceTree = "<group>"; };
+		EF90C93A149A56D5000D3297 /* rsz_2qr-code-reader1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_2qr-code-reader1.png"; sourceTree = "<group>"; };
+		EF90C93C149AE3FF000D3297 /* URLListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLListViewController.h; sourceTree = "<group>"; };
+		EF90C93D149AE400000D3297 /* URLListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLListViewController.m; sourceTree = "<group>"; };
+		EF90C93E149AE400000D3297 /* URLListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URLListViewController.xib; sourceTree = "<group>"; };
+		EFDDFAA7148CA70F009D170E /* Know It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Know It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDFAAB148CA70F009D170E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFDDFAAD148CA70F009D170E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFDDFAAF148CA70F009D170E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFDDFAB3148CA70F009D170E /* Know It-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Know It-Info.plist"; sourceTree = "<group>"; };
+		EFDDFAB5148CA70F009D170E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFDDFAB7148CA70F009D170E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDDFAB9148CA70F009D170E /* Know It-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Know It-Prefix.pch"; sourceTree = "<group>"; };
+		EFDDFABA148CA70F009D170E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDDFABB148CA70F009D170E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDDFABE148CA70F009D170E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EFDDFAD3148CA73D009D170E /* KnowITMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowITMainViewController.h; sourceTree = "<group>"; };
+		EFDDFAD4148CA73D009D170E /* KnowITMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowITMainViewController.m; sourceTree = "<group>"; };
+		EFDDFADA148CA762009D170E /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		EFDDFADB148CA762009D170E /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		EFDDFADC148CA762009D170E /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		EFDDFADD148CA762009D170E /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		EFDDFADE148CA762009D170E /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		EFDDFADF148CA762009D170E /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		EFDDFAE0148CA762009D170E /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		EFDDFAE1148CA762009D170E /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		EFDDFAE2148CA762009D170E /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EFDDFAE3148CA762009D170E /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		EFDDFAE4148CA762009D170E /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		EFDDFAE5148CA762009D170E /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		EFDDFAE6148CA762009D170E /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		EFDDFAE7148CA762009D170E /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		EFDDFAE8148CA762009D170E /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		EFDDFAE9148CA762009D170E /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		EFDDFAEA148CA762009D170E /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		EFDDFAEB148CA762009D170E /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		EFDDFAEC148CA762009D170E /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		EFDDFAED148CA762009D170E /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		EFDDFAEE148CA762009D170E /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		EFDDFAF0148CA762009D170E /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		EFDDFAF1148CA762009D170E /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		EFDDFAF2148CA762009D170E /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		EFDDFAF3148CA762009D170E /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		EFDDFAF9148CA78D009D170E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFDDFAFA148CA78D009D170E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EFDDFAFB148CA78D009D170E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EFDDFAFC148CA78D009D170E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		EFDDFAFD148CA78D009D170E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFDDFB03148CA7F0009D170E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		EFDDFB04148CA7F0009D170E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		EFDDFB06148CA829009D170E /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
+		EFDDFB07148CA829009D170E /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
+		EFDDFB08148CA829009D170E /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-cabinet.png"; sourceTree = "<group>"; };
+		EFDDFB09148CA829009D170E /* 71-compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "71-compass.png"; sourceTree = "<group>"; };
+		EFDDFB0A148CA829009D170E /* 72-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "72-pin.png"; sourceTree = "<group>"; };
+		EFDDFB0B148CA829009D170E /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar.png"; sourceTree = "<group>"; };
+		EFDDFB0C148CA829009D170E /* 74-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "74-location.png"; sourceTree = "<group>"; };
+		EFDDFB15148CA864009D170E /* Knowit_samll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knowit_samll.png; sourceTree = "<group>"; };
+		EFDDFB17148CA869009D170E /* Knowit_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knowit_big.png; sourceTree = "<group>"; };
+		EFDDFB1D148CA906009D170E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EFE5479B148D67A400D98391 /* LocationImagesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationImagesView.xib; sourceTree = "<group>"; };
+		EFE547A1148D87E200D98391 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		EFE547A2148D87E200D98391 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		EFE547A3148D87E200D98391 /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		EFE547A6148D8AC900D98391 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDDFAA4148CA70F009D170E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F2441148DC2140017411B /* MapKit.framework in Frameworks */,
+				EFE547A7148D8AC900D98391 /* MediaPlayer.framework in Frameworks */,
+				EF177E30148D368A0075594D /* libsqlite3.0.dylib in Frameworks */,
+				EFDDFAFE148CA78D009D170E /* AVFoundation.framework in Frameworks */,
+				EFDDFAFF148CA78D009D170E /* CoreMedia.framework in Frameworks */,
+				EFDDFB00148CA78D009D170E /* CoreVideo.framework in Frameworks */,
+				EFDDFB01148CA78D009D170E /* libiconv.dylib in Frameworks */,
+				EFDDFB02148CA78D009D170E /* QuartzCore.framework in Frameworks */,
+				EFDDFAAC148CA70F009D170E /* UIKit.framework in Frameworks */,
+				EFDDFAAE148CA70F009D170E /* Foundation.framework in Frameworks */,
+				EFDDFAB0148CA70F009D170E /* CoreGraphics.framework in Frameworks */,
+				EFDDFAF4148CA762009D170E /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF177E35148D3EBB0075594D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				EF549484148DE50D005095F6 /* RecentLocations.sqlite */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		EF549493148DEBDB005095F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF75B58D148CB3D4007BF4B7 /* EmbedReaderViewController.h */,
+				EF75B58E148CB3D4007BF4B7 /* EmbedReaderViewController.m */,
+				EFDDFAD3148CA73D009D170E /* KnowITMainViewController.h */,
+				EFDDFAD4148CA73D009D170E /* KnowITMainViewController.m */,
+				EFDDFB03148CA7F0009D170E /* SettingsViewController.h */,
+				EFDDFB04148CA7F0009D170E /* SettingsViewController.m */,
+				EF75B588148CB237007BF4B7 /* LocationDetailsController.h */,
+				EF75B589148CB237007BF4B7 /* LocationDetailsController.m */,
+				EF79A35014990B010057E6E0 /* LocationDetails.h */,
+				EF79A35114990B010057E6E0 /* LocationDetails.m */,
+				EF79A35214990B010057E6E0 /* XMLParser.h */,
+				EF79A35314990B010057E6E0 /* XMLParser.m */,
+				EFDDFABA148CA70F009D170E /* AppDelegate.h */,
+				EFDDFABB148CA70F009D170E /* AppDelegate.m */,
+				EF4E99F6148D6458003A0DA5 /* MoreDetailsViewController.h */,
+				EF4E99F7148D6458003A0DA5 /* MoreDetailsViewController.m */,
+				EF4E9A00148D64E2003A0DA5 /* LocationImages.h */,
+				EF4E9A01148D64E2003A0DA5 /* LocationImages.m */,
+				EF4E9A03148D65A7003A0DA5 /* LocationImagesView.h */,
+				EF4E9A04148D65A7003A0DA5 /* LocationImagesView.m */,
+				EFE547A1148D87E200D98391 /* VideoViewController.h */,
+				EFE547A2148D87E200D98391 /* VideoViewController.m */,
+				EF1F242D148DB09A0017411B /* LocationRecommendedViewController.h */,
+				EF1F242E148DB09A0017411B /* LocationRecommendedViewController.m */,
+				EF1F243B148DC1520017411B /* RecommendedLOcationMapViewController.h */,
+				EF1F243C148DC1520017411B /* RecommendedLOcationMapViewController.m */,
+				EF1F2442148DC6F60017411B /* MapViewPins.h */,
+				EF1F2443148DC6F60017411B /* MapViewPins.m */,
+				EF54949B148DF6D1005095F6 /* RecentScansViewController.h */,
+				EF54949C148DF6D1005095F6 /* RecentScansViewController.m */,
+				EF311D2F149A0AF200616ECE /* RecentScansDetailController.h */,
+				EF311D30149A0AF200616ECE /* RecentScansDetailController.m */,
+				EF311D34149A1BDD00616ECE /* RecentScanMapController.h */,
+				EF311D35149A1BDD00616ECE /* RecentScanMapController.m */,
+				EF90C93C149AE3FF000D3297 /* URLListViewController.h */,
+				EF90C93D149AE400000D3297 /* URLListViewController.m */,
+				EF90C93E149AE400000D3297 /* URLListViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EF549495148DEBF1005095F6 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				EF75B58F148CB3D4007BF4B7 /* EmbedReaderViewController.xib */,
+				EF75B58A148CB237007BF4B7 /* LocationDetailsController.xib */,
+				EFDDFABD148CA70F009D170E /* MainStoryboard.storyboard */,
+				EF4E99F8148D6458003A0DA5 /* MoreDetailsViewController.xib */,
+				EFE5479B148D67A400D98391 /* LocationImagesView.xib */,
+				EFE547A3148D87E200D98391 /* VideoViewController.xib */,
+				EF1F242F148DB09A0017411B /* LocationRecommendedViewController.xib */,
+				EF1F243D148DC1520017411B /* RecommendedLOcationMapViewController.xib */,
+				EF54949D148DF6D2005095F6 /* RecentScansViewController.xib */,
+				EF311D31149A0AF200616ECE /* RecentScansDetailController.xib */,
+				EF311D36149A1BDD00616ECE /* RecentScanMapController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		EFDDFA9C148CA70F009D170E = {
+			isa = PBXGroup;
+			children = (
+				EF90C93A149A56D5000D3297 /* rsz_2qr-code-reader1.png */,
+				EF90C938149A5629000D3297 /* rsz_1qr-code-reader.png */,
+				EFDDFB1D148CA906009D170E /* Default@2x.png */,
+				EFDDFB17148CA869009D170E /* Knowit_big.png */,
+				EFDDFB15148CA864009D170E /* Knowit_samll.png */,
+				EFDDFB14148CA831009D170E /* images */,
+				EFDDFAB1148CA70F009D170E /* Know It */,
+				EFDDFAD6148CA762009D170E /* ZBarSDK */,
+				EFDDFAAA148CA70F009D170E /* Frameworks */,
+				EFDDFAA8148CA70F009D170E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDDFAA8148CA70F009D170E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFAA7148CA70F009D170E /* Know It.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDDFAAA148CA70F009D170E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F2440148DC2140017411B /* MapKit.framework */,
+				EFE547A6148D8AC900D98391 /* MediaPlayer.framework */,
+				EF177E2F148D368A0075594D /* libsqlite3.0.dylib */,
+				EFDDFAF9148CA78D009D170E /* AVFoundation.framework */,
+				EFDDFAFA148CA78D009D170E /* CoreMedia.framework */,
+				EFDDFAFB148CA78D009D170E /* CoreVideo.framework */,
+				EFDDFAFC148CA78D009D170E /* libiconv.dylib */,
+				EFDDFAFD148CA78D009D170E /* QuartzCore.framework */,
+				EFDDFAAB148CA70F009D170E /* UIKit.framework */,
+				EFDDFAAD148CA70F009D170E /* Foundation.framework */,
+				EFDDFAAF148CA70F009D170E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDDFAB1148CA70F009D170E /* Know It */ = {
+			isa = PBXGroup;
+			children = (
+				EF549493148DEBDB005095F6 /* Classes */,
+				EF549495148DEBF1005095F6 /* XIB */,
+				EF177E35148D3EBB0075594D /* Database */,
+				EFDDFAB2148CA70F009D170E /* Supporting Files */,
+			);
+			path = "Know It";
+			sourceTree = "<group>";
+		};
+		EFDDFAB2148CA70F009D170E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFAB3148CA70F009D170E /* Know It-Info.plist */,
+				EFDDFAB4148CA70F009D170E /* InfoPlist.strings */,
+				EFDDFAB7148CA70F009D170E /* main.m */,
+				EFDDFAB9148CA70F009D170E /* Know It-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFDDFAD6148CA762009D170E /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFAD7148CA762009D170E /* Headers */,
+				EFDDFAEE148CA762009D170E /* libzbar.a */,
+				EFDDFAEF148CA762009D170E /* Resources */,
+			);
+			name = ZBarSDK;
+			path = "Know It/ZBarSDK";
+			sourceTree = "<group>";
+		};
+		EFDDFAD7148CA762009D170E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFAD8148CA762009D170E /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EFDDFAD8148CA762009D170E /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFAD9148CA762009D170E /* zbar */,
+				EFDDFAE3148CA762009D170E /* zbar.h */,
+				EFDDFAE4148CA762009D170E /* ZBarCameraSimulator.h */,
+				EFDDFAE5148CA762009D170E /* ZBarCaptureReader.h */,
+				EFDDFAE6148CA762009D170E /* ZBarHelpController.h */,
+				EFDDFAE7148CA762009D170E /* ZBarImage.h */,
+				EFDDFAE8148CA762009D170E /* ZBarImageScanner.h */,
+				EFDDFAE9148CA762009D170E /* ZBarReaderController.h */,
+				EFDDFAEA148CA762009D170E /* ZBarReaderView.h */,
+				EFDDFAEB148CA762009D170E /* ZBarReaderViewController.h */,
+				EFDDFAEC148CA762009D170E /* ZBarSDK.h */,
+				EFDDFAED148CA762009D170E /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		EFDDFAD9148CA762009D170E /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFADA148CA762009D170E /* Decoder.h */,
+				EFDDFADB148CA762009D170E /* Exception.h */,
+				EFDDFADC148CA762009D170E /* Image.h */,
+				EFDDFADD148CA762009D170E /* ImageScanner.h */,
+				EFDDFADE148CA762009D170E /* Processor.h */,
+				EFDDFADF148CA762009D170E /* Scanner.h */,
+				EFDDFAE0148CA762009D170E /* Symbol.h */,
+				EFDDFAE1148CA762009D170E /* Video.h */,
+				EFDDFAE2148CA762009D170E /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		EFDDFAEF148CA762009D170E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFAF0148CA762009D170E /* zbar-back.png */,
+				EFDDFAF1148CA762009D170E /* zbar-help.html */,
+				EFDDFAF2148CA762009D170E /* zbar-helpicons.png */,
+				EFDDFAF3148CA762009D170E /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EFDDFB14148CA831009D170E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDFB06148CA829009D170E /* 06-magnify.png */,
+				EFDDFB07148CA829009D170E /* 07-map-marker.png */,
+				EFDDFB08148CA829009D170E /* 33-cabinet.png */,
+				EFDDFB09148CA829009D170E /* 71-compass.png */,
+				EFDDFB0A148CA829009D170E /* 72-pin.png */,
+				EFDDFB0B148CA829009D170E /* 73-radar.png */,
+				EFDDFB0C148CA829009D170E /* 74-location.png */,
+			);
+			name = images;
+			path = "Know It";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDDFAA6148CA70F009D170E /* Know It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDFAD0148CA70F009D170E /* Build configuration list for PBXNativeTarget "Know It" */;
+			buildPhases = (
+				EFDDFAA3148CA70F009D170E /* Sources */,
+				EFDDFAA4148CA70F009D170E /* Frameworks */,
+				EFDDFAA5148CA70F009D170E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Know It";
+			productName = "Know It";
+			productReference = EFDDFAA7148CA70F009D170E /* Know It.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDDFA9E148CA70F009D170E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Clemson University";
+			};
+			buildConfigurationList = EFDDFAA1148CA70F009D170E /* Build configuration list for PBXProject "Know It" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFDDFA9C148CA70F009D170E;
+			productRefGroup = EFDDFAA8148CA70F009D170E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDDFAA6148CA70F009D170E /* Know It */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDDFAA5148CA70F009D170E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDFAB6148CA70F009D170E /* InfoPlist.strings in Resources */,
+				EFDDFABF148CA70F009D170E /* MainStoryboard.storyboard in Resources */,
+				EFDDFAF5148CA762009D170E /* zbar-back.png in Resources */,
+				EFDDFAF6148CA762009D170E /* zbar-help.html in Resources */,
+				EFDDFAF7148CA762009D170E /* zbar-helpicons.png in Resources */,
+				EFDDFAF8148CA762009D170E /* zbar-samples.png in Resources */,
+				EFDDFB0D148CA829009D170E /* 06-magnify.png in Resources */,
+				EFDDFB0E148CA829009D170E /* 07-map-marker.png in Resources */,
+				EFDDFB0F148CA829009D170E /* 33-cabinet.png in Resources */,
+				EFDDFB10148CA829009D170E /* 71-compass.png in Resources */,
+				EFDDFB11148CA829009D170E /* 72-pin.png in Resources */,
+				EFDDFB12148CA829009D170E /* 73-radar.png in Resources */,
+				EFDDFB13148CA829009D170E /* 74-location.png in Resources */,
+				EFDDFB1E148CA906009D170E /* Default@2x.png in Resources */,
+				EF75B58C148CB237007BF4B7 /* LocationDetailsController.xib in Resources */,
+				EF75B591148CB3D4007BF4B7 /* EmbedReaderViewController.xib in Resources */,
+				EF4E99FA148D6458003A0DA5 /* MoreDetailsViewController.xib in Resources */,
+				EFE5479C148D67A400D98391 /* LocationImagesView.xib in Resources */,
+				EFE547A5148D87E300D98391 /* VideoViewController.xib in Resources */,
+				EF1F2431148DB09A0017411B /* LocationRecommendedViewController.xib in Resources */,
+				EF1F243F148DC1520017411B /* RecommendedLOcationMapViewController.xib in Resources */,
+				EF549485148DE50D005095F6 /* RecentLocations.sqlite in Resources */,
+				EF54949F148DF6D2005095F6 /* RecentScansViewController.xib in Resources */,
+				EF311D33149A0AF200616ECE /* RecentScansDetailController.xib in Resources */,
+				EF311D38149A1BDD00616ECE /* RecentScanMapController.xib in Resources */,
+				EF90C939149A5629000D3297 /* rsz_1qr-code-reader.png in Resources */,
+				EF90C93B149A56D5000D3297 /* rsz_2qr-code-reader1.png in Resources */,
+				EF90C940149AE401000D3297 /* URLListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDDFAA3148CA70F009D170E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDDFAB8148CA70F009D170E /* main.m in Sources */,
+				EFDDFABC148CA70F009D170E /* AppDelegate.m in Sources */,
+				EFDDFAD5148CA73D009D170E /* KnowITMainViewController.m in Sources */,
+				EFDDFB05148CA7F0009D170E /* SettingsViewController.m in Sources */,
+				EF75B58B148CB237007BF4B7 /* LocationDetailsController.m in Sources */,
+				EF75B590148CB3D4007BF4B7 /* EmbedReaderViewController.m in Sources */,
+				EF4E99F9148D6458003A0DA5 /* MoreDetailsViewController.m in Sources */,
+				EF4E9A02148D64E2003A0DA5 /* LocationImages.m in Sources */,
+				EF4E9A05148D65A7003A0DA5 /* LocationImagesView.m in Sources */,
+				EFE547A4148D87E300D98391 /* VideoViewController.m in Sources */,
+				EF1F2430148DB09A0017411B /* LocationRecommendedViewController.m in Sources */,
+				EF1F243E148DC1520017411B /* RecommendedLOcationMapViewController.m in Sources */,
+				EF1F2444148DC6F60017411B /* MapViewPins.m in Sources */,
+				EF54949E148DF6D2005095F6 /* RecentScansViewController.m in Sources */,
+				EF79A35414990B010057E6E0 /* LocationDetails.m in Sources */,
+				EF79A35514990B010057E6E0 /* XMLParser.m in Sources */,
+				EF311D32149A0AF200616ECE /* RecentScansDetailController.m in Sources */,
+				EF311D37149A1BDD00616ECE /* RecentScanMapController.m in Sources */,
+				EF90C93F149AE401000D3297 /* URLListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFDDFAB4148CA70F009D170E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDDFAB5148CA70F009D170E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFDDFABD148CA70F009D170E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDDFABE148CA70F009D170E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDDFACE148CA70F009D170E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFDDFACF148CA70F009D170E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDDFAD1148CA70F009D170E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Know It/Know It-Prefix.pch";
+				INFOPLIST_FILE = "Know It/Know It-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Know It/ZBarSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFDDFAD2148CA70F009D170E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Know It/Know It-Prefix.pch";
+				INFOPLIST_FILE = "Know It/Know It-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Know It/ZBarSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDDFAA1148CA70F009D170E /* Build configuration list for PBXProject "Know It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDFACE148CA70F009D170E /* Debug */,
+				EFDDFACF148CA70F009D170E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDFAD0148CA70F009D170E /* Build configuration list for PBXNativeTarget "Know It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDFAD1148CA70F009D170E /* Debug */,
+				EFDDFAD2148CA70F009D170E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDDFA9E148CA70F009D170E /* Project object */;
+}

@@ -1,0 +1,13 @@
+#col_box {
+    border: 0px solid black;
+    width: 45em;
+    margin: 10px auto 10px auto;
+}
+
+#col_right {
+    float:right;
+}
+
+#col_left {
+    float:left;
+}

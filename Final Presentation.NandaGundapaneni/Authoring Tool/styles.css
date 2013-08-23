@@ -1,0 +1,114 @@
+body {
+    background: #E0E0E0;
+    font-family: Georgia;
+}
+
+img {
+    width:20em;
+    height: auto;
+}
+
+video {
+    width: 25em;
+}
+
+textarea {
+    resize: none;
+}
+
+h4, h3 {
+    margin:15px auto 15px auto;
+}
+
+h2 {
+    text-align:center;
+}
+
+#first_post {
+    border-top:2px solid black;
+}
+
+div.section{
+    background: #E0E0E0;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    text-align:center;
+    margin:10px auto 10px auto;
+    padding:0px;
+    width:21em;
+}
+
+div.result{
+    margin:10px auto 10px auto;
+    text-align:center;
+}
+div.form{
+    background: #E0E0E0;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-color: black;
+    background:#E0E0E0;
+    text-align:center;
+    margin:0px auto 0px auto;
+    width:21em;
+    padding:10px;
+}
+
+#nav{
+   height:38px;
+    width:500px;
+    margin:10px auto 10px auto;
+}
+
+
+#nav li{
+   display:inline;
+    text-align:center;
+}
+
+#nav li a{
+	width:60px;
+    height:30px;
+    display:inline-block;
+    float:left;
+    padding-top:0px;
+    padding-left:15px;
+    color:#000;
+    font-family:Georgia;
+    font-size:12px;
+    font-weight:600;
+    text-shadow:#eee 1.5px 1.5px 0;
+    text-decoration:none;
+    text-align:center;
+    border-right: 1px solid black;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+}
+
+#nav li a:active {
+    background:#E0E0E0;
+    /*-moz-box-shadow:inset 1px 3px 5px #E0E0E0;
+    background:-webkit-gradient(linear, left top, left bottom, from(#999), to(#666));
+    -webkit-box-shadow:inset 1px 3px 5px #E0E0E0;*/
+    padding: 2px 0 0 2px;
+}
+
+#nav li a:target {
+    background:#E0E0E0;
+    /*-moz-box-shadow:#E0E0E0
+    background:-webkit-gradient(linear, left top, left bottom, from(#C7926E), to(#B2A298));
+    -webkit-box-shadow:#E0E0E0;*/
+}
+
+#nav li:first-child  a{
+    -moz-border-radius:5px 0 0 5px;
+    -webkit-border-radius:5px 0 0 5px;
+    border-bottom:1px solid black;
+}
+
+#nav li:last-child  a{
+    -moz-border-radius:0 5px 5px 0;
+    -webkit-border-radius:0 5px 5px 0;
+    border-bottom:1px solid black;
+}
